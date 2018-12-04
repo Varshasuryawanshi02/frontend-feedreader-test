@@ -2,7 +2,7 @@
 In this project we are given a web-based application that reads RSS feeds by Udacity. The tests are added using Jasmine to check the functionalites of the code written.
 
 # How to run the Project
-Clone the repository using git clone https://github.com/Varshasuryawanshi02/frontend-feedreader-test and then Open index.html in your browser.
+Download the zip file and then Open index.html in your browser.
 
 # About test
 1 tests to make sure that the allFeeds variable has been defined and that it is not empty.
