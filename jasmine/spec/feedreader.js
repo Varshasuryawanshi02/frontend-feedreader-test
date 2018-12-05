@@ -84,8 +84,8 @@ $(function() {
     describe('New Feed Selection', function() {
 
         // tests that new content is loaded by loadFeed().
-        var $feedOne;
-        var $feedTwo;
+        var feedOne;
+        var feedTwo;
 
         beforeEach(function(done) {
             loadFeed(0, function() {
