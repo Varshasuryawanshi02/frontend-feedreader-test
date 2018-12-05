@@ -76,9 +76,9 @@ $(function() {
         });
 
         // tests that there is at least one entry in feed.
-        it('should be called and contain at least one feed.', function() {
-           expect($('.feed .entry').length).toBeGreaterThan(0);
-        });
+        it('initial element is there', function(){
+                    expect($('.feed .entry').length).toBeGreaterThan(0);
+                });
     });
 
     describe('New Feed Selection', function() {
